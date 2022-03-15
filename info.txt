@@ -1,2 +1,15 @@
-kirjutan siia teksti
+Kasutajaliideste paaristöö:
+www.lhv.ee
 Oliver ja Enri
+
+Jaotus (plaani järgi):
+Oliver:
+Header/sisselogimise sektsioon
+Esimene pilite slideshow
+
+Enri:
+Alumine LHV on roheline sektsioon
+Footer linkide ja asjadega
+
+Koos:
+Lehe keskmine sektsioon - blogid/postitused jne
