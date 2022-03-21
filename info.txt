@@ -5,7 +5,7 @@ Oliver ja Enri
 Jaotus (plaani järgi):
 Oliver:
 Header/sisselogimise sektsioon
-Esimene pilite slideshow
+Esimene piltide slideshow
 
 Enri:
 Alumine LHV on roheline sektsioon
