@@ -36,6 +36,39 @@
   padding: 30px;
 }
 
+.emptyDiv {
+  background-color: rgb(249, 248, 247);
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.postitusedFirst {
+  background-color: rgb(249, 248, 247);
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.postitusedSecond {
+  margin-left: 80px;
+  margin-right: 80px;
+  padding-top: 30px;
+  display: flex;
+}
+.blogiText {
+  margin-right: 50px;
+}
+.blogiTextR {
+  /*kui tekst on pildist paremal (vastasel juhul kasuta blogiText)*/
+}
+.blogiPicR {
+  /*kui pilt on tekstist paremal*/
+}
+.blogiPicL {
+  /*kui pilt on tekstist vasakul*/
+  margin-right: 50px;
+}
+.blogiPicSub {
+  max-height: 350px; max-width: 350px;
+}
+
 .ninetyPercentText {
   font-size: 90%;
 }
