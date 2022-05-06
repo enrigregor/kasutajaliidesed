@@ -19,28 +19,28 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 flex-column">
           <li class="nav-item">
-            <a class="nav-link active h6 mb-sm-0" href="#" style="font-size: 90%;">PANK</a>
+            <a class="nav-link active h6 mb-sm-0 ninetyPercentText" href="#">PANK</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link h6 mb-sm-0" href="#" style="font-size: 90%;">FINANTSPORTAAL</a>
+            <a class="nav-link h6 mb-sm-0 ninetyPercentText" href="#">FINANTSPORTAAL</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link h6 mb-sm-0" href="#" style="font-size: 90%;">INVESTOR</a>
+            <a class="nav-link h6 mb-sm-0 ninetyPercentText" href="#">INVESTOR</a>
           </li>
         </ul>
         <div class="d-flex position-relative end-50">
           <ul class="navbar-nav me-auto ml-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link h6 mb-sm-0" href="#" style="font-size: 90%;">AVA KONTO</a>
+              <a class="nav-link h6 mb-sm-0 ninetyPercentText" href="#">AVA KONTO</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link h6 mb-sm-0" href="#" style="font-size: 90%;">SISENE</a>
+              <a class="nav-link h6 mb-sm-0 ninetyPercentText" href="#">SISENE</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link h6 mb-sm-0" href="#" style="font-size: 90%;">EN</a>
+              <a class="nav-link h6 mb-sm-0 ninetyPercentText" href="#">EN</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link h6 mb-sm-0" href="#" style="font-size: 90%;">RU</a>
+              <a class="nav-link h6 mb-sm-0 ninetyPercentText" href="#">RU</a>
             </li>
           </ul>
         </form>
@@ -48,21 +48,48 @@
     </div>
   </nav>
 
-  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #F4F4F4;">
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #F4F4F4; display: block;">
+    <!-- Sisselogimise navbar -->
     <div class="collapse navbar-collapse" id="navbarSupportedContent" style="padding-left: 410px">
       <div class="btn-group" role="group" aria-label="Basic example">
-        <button type="button" class="btn btn-outline-secondary h6" style="font-size: 80%; font-weight: bold;">ID-kaart</button>
-        <button type="button" class="btn btn-outline-secondary h6" style="font-size: 80%; font-weight: bold;">Mobiil-ID</button>
-        <button type="button" class="btn btn-outline-secondary h6" style="font-size: 80%; font-weight: bold;">Smart-ID</button>
-        <button type="button" class="btn btn-outline-secondary h6" style="font-size: 80%; font-weight: bold;">PIN-kalkulaator</button>
-        <button type="button" class="btn btn-outline-secondary h6" style="font-size: 80%; font-weight: bold;">Salasõna</button>
+        <button type="button" class="btn btn-outline-secondary h6 boldEightyPercentText">ID-kaart</button>
+        <button type="button" class="btn btn-outline-secondary h6 boldEightyPercentText">Mobiil-ID</button>
+        <button type="button" class="btn btn-outline-secondary h6 boldEightyPercentText">Smart-ID</button>
+        <button type="button" class="btn btn-outline-secondary h6 boldEightyPercentText">PIN-kalkulaator</button>
+        <button type="button" class="btn btn-outline-secondary h6 boldEightyPercentText">Salasõna</button>
       </div>
       <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2 h6" type="search" placeholder="Kasutajanimi" aria-label="Search">
-        <button type="button" class="btn btn-secondary">Sisene</button>
+        <input class="form-control mr-sm-2 h6" type="search" placeholder="Kasutajanimi" aria-label="Search" id="usernameInput">
       </form>
+      <button type="button" class="btn btn-secondary" id="enterButton">Sisene</button>
     </div>
   </nav>
+
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #F4F4F4; display: block;">
+    <!-- Lisanuppude navbar -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent" style="padding-left: 400px">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item inactive_class">
+          <a class="nav-link active h6 mb-sm-0 boldEightyPercentText" href="#" style="margin-right: 10px;">IGAPÄEVAPANGANDUS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link h6 mb-sm-0 boldEightyPercentText" href="#" style="margin-right: 10px;">RAHA KASVATAMINE</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link h6 mb-sm-0 boldEightyPercentText" href="#" style="margin-right: 10px;">LAEN JA LIISING</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link h6 mb-sm-0 boldEightyPercentText" href="#" style="margin-right: 10px;">KINDLUSTUS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link h6 mb-sm-0 boldEightyPercentText" href="#" style="margin-right: 10px;">PENSION</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link h6 mb-sm-0 boldEightyPercentText" href="#" style="margin-right: 10px;">VAJAD ABI?</a>
+        </li>
+    </div>
+  </nav>
+
 
   <div id="main">
     <div id="postitused">
