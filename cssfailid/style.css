@@ -93,3 +93,58 @@
 li.inactive_class a {
   color: #6e6e6e !important;
 }
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.background-image {
+  position: relative;
+  display: block;
+}
+
+.foreground-image {
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  margin-top: -405px;
+  margin-left: -1005px;
+}
+
+.carousel-indicators li {
+  background-color: #ccc !important;
+}
+.carousel-indicators .active {
+  background-color: #000 !important;
+  position: relative;
+  bottom: -50px;
+}
+
+.carousel-inner > .carousel-item > img {
+  width: 100%;
+  height: 100%;
+}
+
+.tenPxMarginRight {
+  margin-right: 10px;
+}
+
+#headerStyling {
+  padding-left: 305px; 
+  padding-bottom: 20px;
+}
+
+#navStyling {
+  background-color: #F4F4F4; 
+  display: block;
+}
+
+.signInPadding {
+  padding-left: 410px;
+}
+
+.fourHundredPxPaddingLeft {
+  padding-left: 400px;
+}

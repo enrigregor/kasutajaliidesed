@@ -4,15 +4,24 @@
   <title>LHV main page</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="./cssfailid/style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="bootstrap/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <script>
+    $(function(){
+        // Activate Carousel
+        $("#carouselExampleIndicators").carousel({
+          interval: 1000
+        });
+    });
+</script>
+
 </head>
 <body>
 <div id="wrapper">
   <nav class="navbar navbar-expand-lg navbar-light">
-    <div class="container-fluid" style="padding-left: 305px; padding-bottom: 20px;">
+    <div class="container-fluid" id="headerStyling">
       <a class="navbar-brand" href="#">
         <img src="failid/lhv-logo.svg" alt="Laenatud LHV lehelt koolitöö eesmärgil">
       </a>
@@ -48,11 +57,11 @@
     </div>
   </nav>
 
-  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #F4F4F4; display: block;">
+  <nav class="navbar navbar-expand-lg navbar-light" id="navStyling">
     <!-- Sisselogimise navbar -->
-    <div class="collapse navbar-collapse" id="navbarSupportedContent" style="padding-left: 410px">
+    <div class="collapse navbar-collapse signInPadding" id="navbarSupportedContent">
       <div class="btn-group" role="group" aria-label="Basic example">
-        <button type="button" class="btn btn-outline-secondary h6 boldEightyPercentText">ID-kaart</button>
+        <button type="button" class="btn btn-outline-secondary h6 boldEightyPercentText active">ID-kaart</button>
         <button type="button" class="btn btn-outline-secondary h6 boldEightyPercentText">Mobiil-ID</button>
         <button type="button" class="btn btn-outline-secondary h6 boldEightyPercentText">Smart-ID</button>
         <button type="button" class="btn btn-outline-secondary h6 boldEightyPercentText">PIN-kalkulaator</button>
@@ -65,33 +74,63 @@
     </div>
   </nav>
 
-  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #F4F4F4; display: block;">
+  <nav class="navbar navbar-expand-lg navbar-light" id="navStyling">
     <!-- Lisanuppude navbar -->
-    <div class="collapse navbar-collapse" id="navbarSupportedContent" style="padding-left: 400px">
+    <div class="collapse navbar-collapse fourHundredPxPaddingLeft" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item inactive_class">
-          <a class="nav-link active h6 mb-sm-0 boldEightyPercentText" href="#" style="margin-right: 10px;">IGAPÄEVAPANGANDUS</a>
+          <a class="nav-link active h6 mb-sm-0 boldEightyPercentText tenPxMarginRight" href="#">IGAPÄEVAPANGANDUS</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link h6 mb-sm-0 boldEightyPercentText" href="#" style="margin-right: 10px;">RAHA KASVATAMINE</a>
+          <a class="nav-link h6 mb-sm-0 boldEightyPercentText tenPxMarginRight" href="#">RAHA KASVATAMINE</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link h6 mb-sm-0 boldEightyPercentText" href="#" style="margin-right: 10px;">LAEN JA LIISING</a>
+          <a class="nav-link h6 mb-sm-0 boldEightyPercentText tenPxMarginRight" href="#">LAEN JA LIISING</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link h6 mb-sm-0 boldEightyPercentText" href="#" style="margin-right: 10px;">KINDLUSTUS</a>
+          <a class="nav-link h6 mb-sm-0 boldEightyPercentText tenPxMarginRight" href="#">KINDLUSTUS</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link h6 mb-sm-0 boldEightyPercentText" href="#" style="margin-right: 10px;">PENSION</a>
+          <a class="nav-link h6 mb-sm-0 boldEightyPercentText tenPxMarginRight" href="#">PENSION</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link h6 mb-sm-0 boldEightyPercentText" href="#" style="margin-right: 10px;">VAJAD ABI?</a>
+          <a class="nav-link h6 mb-sm-0 boldEightyPercentText tenPxMarginRight" href="#">VAJAD ABI?</a>
         </li>
     </div>
   </nav>
 
-
   <div id="main">
+
+    <!-- Slideshow -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <!--
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        -->
+
+        <button type="button" data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></button>
+        <button type="button" data-target="#carouselExampleIndicators" data-slide-to="1"></button>
+        <button type="button" data-target="#carouselExampleIndicators" data-slide-to="2"></button>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active background-image">
+          <img class="d-block w-100" src="./failid/vl-palm-bg.svg" alt="First slide bg">
+          <img class="d-block w-100 foreground-image" src="./failid/vl-palm-fg.svg" alt="First slide fg">
+        </div>
+        <div class="carousel-item background-image">
+          <img class="d-block w-100" src="./failid/kindlustus-kasko-bg.svg" alt="Second slide bg">
+          <img class="d-block w-100 foreground-image" src="./failid/kindlustus-kasko-fg.svg" alt="Second slide fg">
+        </div>
+        <div class="carousel-item background-image">
+          <img class="d-block w-100" src="./failid/roheline-bg-2022.svg" alt="Third slide bg">
+          <img class="d-block w-100 foreground-image" src="./failid/roheline-fg-2022.png" alt="Third slide fg">
+        </div>
+      </div>
+    </div>
+
     <div id="postitused">
       <div class="container postitusedFirst">
         <div class="postitusedSecond">
