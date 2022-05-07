@@ -103,15 +103,18 @@ li.inactive_class a {
   justify-content: center;
 }
 
-#footerInfo{
-  margin-top: 20px; color: #B2B2B2; font-family: arial; font-size: 13px
+#footerInfo {
+  margin-top: 20px; color: #B2B2B2; font-family: arial; font-size: 13px;
 }
+
 .justifyText {
   text-align: justify;
 }
+
 .container {
   max-width: 1000px;
 }
+
 .blog {
   background-color: rgb(248,248,248);
   margin: 20px;
@@ -119,36 +122,43 @@ li.inactive_class a {
   padding-top: 40px;
   padding-bottom: 40px;
 }
+
 .uudis {
   margin: 20px;
   padding: 20px;
   padding-top: 40px;
   padding-bottom: 40px;
 }
+
 .podcast {
   margin: 20px;
   padding: 20px;
   padding-top: 40px;
   padding-bottom: 40px;
 }
+
 .blogi_sisu {
   display: flex;
   color: black;
 }
+
 .blogiLogo {
   height: 24px;
   width: 24px;
   margin-right: 10px;
 
 }
+
 .blogisuunavtext {
   max-width: 254px;
 }
+
 .blogDate {
   padding-left: 34px;
   font-size: 14px;
   color: rgb(148,144,150);
 }
+
 .blogiSisuWrap {
   height: 135px;
 }
@@ -169,6 +179,7 @@ li.inactive_class a {
 .carousel-indicators li {
   background-color: #ccc !important;
 }
+
 .carousel-indicators .active {
   background-color: #000 !important;
   position: relative;
