@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Elements / read</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="pension-II-sammas" transform="translate(-1017.000000, -3510.000000)">
+            <g id="Group-3-Copy-4" transform="translate(367.000000, 3440.000000)">
+                <g id="Group-5-Copy-2" transform="translate(650.000000, 66.000000)">
+                    <g id="Group-13" transform="translate(0.000000, 4.000000)">
+                        <circle id="Oval-2" fill="#00000F" fill-rule="nonzero" opacity="0.699999988" cx="12" cy="12" r="12"></circle>
+                        <path d="M8.2819426,6 L15.7180574,6 C16.1638168,6 16.3254599,6.04641281 16.4884229,6.13356635 C16.6513858,6.2207199 16.7792801,6.34861419 16.8664336,6.51157715 C16.9535872,6.67454011 17,6.83618323 17,7.2819426 L17,16.7180574 C17,17.1638168 16.9535872,17.3254599 16.8664336,17.4884229 C16.7792801,17.6513858 16.6513858,17.7792801 16.4884229,17.8664336 C16.3254599,17.9535872 16.1638168,18 15.7180574,18 L8.2819426,18 C7.83618323,18 7.67454011,17.9535872 7.51157715,17.8664336 C7.34861419,17.7792801 7.2207199,17.6513858 7.13356635,17.4884229 C7.04641281,17.3254599 7,17.1638168 7,16.7180574 L7,7.2819426 C7,6.83618323 7.04641281,6.67454011 7.13356635,6.51157715 C7.2207199,6.34861419 7.34861419,6.2207199 7.51157715,6.13356635 C7.67454011,6.04641281 7.83618323,6 8.2819426,6 Z" id="Rectangle" fill="#FFFFFF"></path>
+                        <g id="Group-12" transform="translate(9.000000, 8.000000)" stroke="#4A4954" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="0.5" y1="1" x2="5.5" y2="1" id="Line"></line>
+                            <line x1="0.5" y1="4" x2="5.5" y2="4" id="Line-Copy"></line>
+                            <line x1="0.5" y1="7" x2="5.5" y2="7" id="Line-Copy-2"></line>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
