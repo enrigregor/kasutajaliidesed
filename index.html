@@ -21,7 +21,7 @@
 <body>
 <div id="wrapper">
   <nav class="navbar navbar-expand-lg navbar-light">
-    <div class="container-fluid" id="headerStyling">
+    <div class="container-fluid">
       <a class="navbar-brand" href="#">
         <img src="failid/lhv-logo.svg" alt="Laenatud LHV lehelt koolitöö eesmärgil">
       </a>
@@ -52,7 +52,6 @@
               <a class="nav-link h6 mb-sm-0 ninetyPercentText" href="#">RU</a>
             </li>
           </ul>
-        </form>
       </div>
     </div>
   </nav>
@@ -102,31 +101,33 @@
   <div id="main">
 
     <!-- Slideshow -->
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <div id="my-carousel" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
-        <!--
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-        -->
-
-        <button type="button" data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></button>
-        <button type="button" data-target="#carouselExampleIndicators" data-slide-to="1"></button>
-        <button type="button" data-target="#carouselExampleIndicators" data-slide-to="2"></button>
+        <button type="button" data-target="#my-carousel" data-slide-to="0" class="active carousel-button"></button>
+        <button type="button" data-target="#my-carousel" data-slide-to="1" class="carousel-button"></button>
+        <button type="button" data-target="#my-carousel" data-slide-to="2" class="carousel-button"></button>
       </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active background-image">
-          <img class="d-block w-100" src="./failid/vl-palm-bg.svg" alt="First slide bg">
-          <img class="d-block w-100 foreground-image" src="./failid/vl-palm-fg.svg" alt="First slide fg">
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="./failid/vl-palm.png" alt="First slide">
+          <div class="row">
+            <div class="col-xs-12 col-sm-5 col-sm-offset-1 text-white text-top">
+              <h2 class="carousel-text"><b>LHV väikelaen</b><br> igaks otstarbeks</h2>
+              <h3 class="under-carousel-text"><b>Uuri lähemalt →</b></h3>
+            </div>
+          </div>
         </div>
-        <div class="carousel-item background-image">
-          <img class="d-block w-100" src="./failid/kindlustus-kasko-bg.svg" alt="Second slide bg">
-          <img class="d-block w-100 foreground-image" src="./failid/kindlustus-kasko-fg.svg" alt="Second slide fg">
+        <div class="carousel-item">
+          <img class="d-block w-100" src="./failid/kindlustus-kasko.png" alt="Second slide">
+          <div class="row">
+            <div class="col-xs-12 col-sm-5 col-sm-offset-1">
+              <h2 class="kasko-carousel-text"><b>LHV<br> kaskokindlustus -</b><br> teenus, mille üle saab uhke olla</h2>
+              <h3 class="kasko-under-carousel-text"><b>Vaata lähemalt →</b></h3>
+            </div>
+          </div>
         </div>
-        <div class="carousel-item background-image">
-          <img class="d-block w-100" src="./failid/roheline-bg-2022.svg" alt="Third slide bg">
-          <img class="d-block w-100 foreground-image" src="./failid/roheline-fg-2022.png" alt="Third slide fg">
+        <div class="carousel-item">
+          <img class="d-block w-100" src="./failid/roheline-2022.png" alt="Third slide">
         </div>
       </div>
     </div>
