@@ -4,54 +4,52 @@
   <title>LHV main page</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/assets/owl.carousel.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/assets/owl.theme.default.min.css">
+
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <script src="bootstrap/js/bootstrap.js"></script>
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="./cssfailid/style.css">
-  <script>
-    $(function(){
-        // Activate Carousel
-        $("#carouselExampleIndicators").carousel({
-          interval: 1000
-        });
-    });
-</script>
+
 
 </head>
 <body>
+
+
 <div id="wrapper">
   <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container justify-content-center">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="./pagekaks.html">
         <img src="failid/lhv-logo.svg" alt="Laenatud LHV lehelt koolitöö eesmärgil">
       </a>
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 flex-column">
           <li class="nav-item">
-            <a class="nav-link active h6 mb-sm-0 ninetyPercentText" href="#">PANK</a>
+            <a class="nav-link active h6 mb-sm-0 ninetyPercentText" href="./pagekaks.html">PANK</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link h6 mb-sm-0 ninetyPercentText" href="#">FINANTSPORTAAL</a>
+            <a class="nav-link h6 mb-sm-0 ninetyPercentText" href="./pagekaks.html">FINANTSPORTAAL</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link h6 mb-sm-0 ninetyPercentText" href="#">INVESTOR</a>
+            <a class="nav-link h6 mb-sm-0 ninetyPercentText" href="./pagekaks.html">INVESTOR</a>
           </li>
         </ul>
       </div>
         <div class="navbar-collapse collapse w-100 order-3 dual-collapse2 offset-md-6">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link h6 mb-sm-0 ninetyPercentText" href="#">AVA KONTO</a>
+              <a class="nav-link h6 mb-sm-0 ninetyPercentText" href="./pagekaks.html">AVA KONTO</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link h6 mb-sm-0 ninetyPercentText" href="#">SISENE</a>
+              <a class="nav-link h6 mb-sm-0 ninetyPercentText" href="./pagekaks.html">SISENE</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link h6 mb-sm-0 ninetyPercentText" href="#">EN</a>
+              <a class="nav-link h6 mb-sm-0 ninetyPercentText" href="./pagekaks.html">EN</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link h6 mb-sm-0 ninetyPercentText" href="#">RU</a>
+              <a class="nav-link h6 mb-sm-0 ninetyPercentText" href="./pagekaks.html">RU</a>
             </li>
           </ul>
       </div>
@@ -80,22 +78,22 @@
     <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
       <ul class="navbar-nav ">
         <li class="nav-item inactive_class">
-          <a class="nav-link active h6 mb-sm-0 boldEightyPercentText tenPxMarginRight" href="#">IGAPÄEVAPANGANDUS</a>
+          <a class="nav-link active h6 mb-sm-0 boldEightyPercentText tenPxMarginRight" href="./pagekaks.html">IGAPÄEVAPANGANDUS</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link h6 mb-sm-0 boldEightyPercentText tenPxMarginRight" href="#">RAHA KASVATAMINE</a>
+          <a class="nav-link h6 mb-sm-0 boldEightyPercentText tenPxMarginRight" href="./pagekaks.html">RAHA KASVATAMINE</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link h6 mb-sm-0 boldEightyPercentText tenPxMarginRight" href="#">LAEN JA LIISING</a>
+          <a class="nav-link h6 mb-sm-0 boldEightyPercentText tenPxMarginRight" href="./pagekaks.html">LAEN JA LIISING</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link h6 mb-sm-0 boldEightyPercentText tenPxMarginRight" href="#">KINDLUSTUS</a>
+          <a class="nav-link h6 mb-sm-0 boldEightyPercentText tenPxMarginRight" href="./pagekaks.html">KINDLUSTUS</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link h6 mb-sm-0 boldEightyPercentText tenPxMarginRight" href="#">PENSION</a>
+          <a class="nav-link h6 mb-sm-0 boldEightyPercentText tenPxMarginRight" href="./pagekaks.html">PENSION</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link h6 mb-sm-0 boldEightyPercentText tenPxMarginRight" href="#">VAJAD ABI?</a>
+          <a class="nav-link h6 mb-sm-0 boldEightyPercentText tenPxMarginRight" href="./pagekaks.html">VAJAD ABI?</a>
         </li>
       </ul>
     </div>
@@ -103,37 +101,28 @@
 
   <div id="main">
 
-    <!-- Slideshow -->
-    <div id="my-carousel" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <button type="button" data-target="#my-carousel" data-slide-to="0" class="active carousel-button"></button>
-        <button type="button" data-target="#my-carousel" data-slide-to="1" class="carousel-button"></button>
-        <button type="button" data-target="#my-carousel" data-slide-to="2" class="carousel-button"></button>
-      </ol>
-      <div class="carousel-inner" role="listbox">
-        <div class="carousel-item active">
-          <img class="d-block w-100" src="./failid/vl-palm.png" alt="First slide">
-          <div class="row_carousel">
-            <div class="col-xs-12 col-sm-5 col-sm-offset-1 text-white text-top">
-              <h2 class="carousel-text"><b>LHV väikelaen</b><br> igaks otstarbeks</h2>
-              <h3 class="under-carousel-text"><b>Uuri lähemalt →</b></h3>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="./failid/kindlustus-kasko.png" alt="Second slide">
-          <div class="row_carousel">
-            <div class="col-xs-12 col-sm-5 col-sm-offset-1">
-              <h2 class="kasko-carousel-text"><b>LHV<br> kaskokindlustus -</b><br> teenus, mille üle saab uhke olla</h2>
-              <h3 class="kasko-under-carousel-text"><b>Vaata lähemalt →</b></h3>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="./failid/roheline-2022.png" alt="Third slide">
-        </div>
+  <div id="owl-demo" class="owl-carousel owl-theme">
+    <div >
+      <img class="d-block w-100" src="./failid/vl-palm.png" alt="First slide">
+      <div class="row_carousel">
+        <div class="col-xs-12 col-sm-5 col-sm-offset-1 text-white text-top">
+          <h2 class="carousel-text"><b>LHV väikelaen</b><br> igaks otstarbeks</h2>
+          <h3 class="under-carousel-text"><b>Uuri lähemalt →</b></h3>
       </div>
     </div>
+    </div>
+    <div ><img class="d-block w-100" src="./failid/kindlustus-kasko.png" alt="Second slide">
+    <div class="row_carousel">
+      <div class="col-xs-12 col-sm-5 col-sm-offset-1">
+        <h2 class="kasko-carousel-text"><b>LHV<br> kaskokindlustus -</b><br> teenus, mille üle saab uhke olla</h2>
+        <h3 class="kasko-under-carousel-text"><b>Vaata lähemalt →</b></h3>
+      </div>
+    </div></div>
+    <div class="item"><img src="assets/fullimage3.jpg" alt="Mirror Edge"></div>
+  </div>
+
+
+
 
     <div id="postitused">
       <div class="container postitusedFirst">
@@ -141,7 +130,7 @@
           <div class=blogiText>
             <h1>Kuidas saan toetada Ukraina riiki ja rahvast?</h1>
             <p>Koondasime kogu vajaliku info meie Ukraina erilehele.</p>
-            <a href="#" class="nav-link p-0 text-muted">Loe lisa -></a>
+            <a href="./pagekaks.html" class="nav-link p-0 text-muted">Loe lisa -></a>
           </div>
           <div class="blogiPic">
             <img src="failid/ukraina-esileht-m.svg" alt="Laenatud lhv lehelt koolitöö eesmärgil" class="blogiPicSub">
@@ -156,7 +145,7 @@
           <div class="blogiTextR">
             <h1>Soovitused tuludeklaratsiooni täitmiseks</h1>
             <p>Oled teinud enda või lapse kontol väärtpaberitega tehinguid – leia sobiv deklareerimise viis</p>
-            <a href="#" class="nav-link p-0 text-muted">Loe lisa -></a>
+            <a href="./pagekaks.html" class="nav-link p-0 text-muted">Loe lisa -></a>
           </div>
         </div>
       </div>
@@ -165,7 +154,7 @@
           <div class=blogiText>
             <h1>Tule ja anna oma panus parima panga eduloosse</h1>
             <p>LHV ei ole lihtsalt pank. Meil on panga süda, aga idufirmalik mõtlemine. Meid inspireerivad uued lähenemised, uued võimalused ja uus tehnoloogia.</p>
-            <a href="#" class="nav-link p-0 text-muted">Vaata töökuulutusi -></a>
+            <a href="./pagekaks.html" class="nav-link p-0 text-muted">Vaata töökuulutusi -></a>
           </div>
           <div class="blogiPic">
             <img src="failid/avaleht-tookuulutus-thumb.png" alt="Laenatud lhv lehelt koolitöö eesmärgil" class="blogiPicSub">
@@ -200,7 +189,7 @@
               </div>
             </div>
             <div class="row">
-              <a href="#" class="text-muted">Loe kõiki blogipostitusi -></a>
+              <a href="./pagekaks.html" class="text-muted">Loe kõiki blogipostitusi -></a>
             </div>
           </div>
           <div class="col-sm uudis">
@@ -224,7 +213,7 @@
               </div>
             </div>
             <div class="row">
-              <a href="#" class="text-muted">Vaata kõiki uudiseid -></a>
+              <a href="./pagekaks.html" class="text-muted">Vaata kõiki uudiseid -></a>
             </div>
           </div>
           <div class="col-sm podcast">
@@ -248,7 +237,7 @@
               </div>
             </div>
             <div class="row">
-              <a href="#" class="text-muted">Kuula kõiki podcaste -></a>
+              <a href="./pagekaks.html" class="text-muted">Kuula kõiki podcaste -></a>
             </div>
           </div>
       </div>
@@ -263,7 +252,7 @@
             <div id="roheline_text">
               <h2>LHV on roheline</h2>
               <p>Teadvustame enda vastutust puhta keskkonna ja jätkusuutliku majanduse poole liikumisel.</p>
-              <a href="#" class="nav-link p-0 text-muted">Loe lisa -></a>
+              <a href="./pagekaks.html" class="nav-link p-0 text-muted">Loe lisa -></a>
             </div>
             <div id="roheline-picture">
               <img src="failid/green-kontor.svg" alt="Laenatud LHV lehelt koolitöö eesmärgil">
@@ -286,49 +275,49 @@
 
           <h6>Tule kliendiks</h6>
           <ul class="nav flex-column" >
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Erakliend</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Äriklient</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Noortepank</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Lapsekonto</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Au-klient</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Privaatpangandus</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Ava konto</a></li>
+            <li class="nav-item mb-2"><a href="./pagekaks.html" class="nav-link p-0 text-muted">Erakliend</a></li>
+            <li class="nav-item mb-2"><a href="./pagekaks.html" class="nav-link p-0 text-muted">Äriklient</a></li>
+            <li class="nav-item mb-2"><a href="./pagekaks.html" class="nav-link p-0 text-muted">Noortepank</a></li>
+            <li class="nav-item mb-2"><a href="./pagekaks.html" class="nav-link p-0 text-muted">Lapsekonto</a></li>
+            <li class="nav-item mb-2"><a href="./pagekaks.html" class="nav-link p-0 text-muted">Au-klient</a></li>
+            <li class="nav-item mb-2"><a href="./pagekaks.html" class="nav-link p-0 text-muted">Privaatpangandus</a></li>
+            <li class="nav-item mb-2"><a href="./pagekaks.html" class="nav-link p-0 text-muted">Ava konto</a></li>
           </ul>
         </div>
 
         <div class="col">
           <h6>Kasulikku</h6>
           <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Hinnakiri ja tingimused</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Ettepanekud ja kaebused</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Turvalisus</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Teata petulehest</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Teenuste seis</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">KKK</a></li>
+            <li class="nav-item mb-2"><a href="./pagekaks.html" class="nav-link p-0 text-muted">Hinnakiri ja tingimused</a></li>
+            <li class="nav-item mb-2"><a href="./pagekaks.html" class="nav-link p-0 text-muted">Ettepanekud ja kaebused</a></li>
+            <li class="nav-item mb-2"><a href="./pagekaks.html" class="nav-link p-0 text-muted">Turvalisus</a></li>
+            <li class="nav-item mb-2"><a href="./pagekaks.html" class="nav-link p-0 text-muted">Teata petulehest</a></li>
+            <li class="nav-item mb-2"><a href="./pagekaks.html" class="nav-link p-0 text-muted">Teenuste seis</a></li>
+            <li class="nav-item mb-2"><a href="./pagekaks.html" class="nav-link p-0 text-muted">KKK</a></li>
           </ul>
         </div>
 
         <div class="col">
           <h6>LHV</h6>
           <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Ettevõttest</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Tööpakkumised</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Uudised</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Investor</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Finantsportaal</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Roheline LHV</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Hea tegu</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Blogi</a></li>
+            <li class="nav-item mb-2"><a href="./pagekaks.html" class="nav-link p-0 text-muted">Ettevõttest</a></li>
+            <li class="nav-item mb-2"><a href="./pagekaks.html" class="nav-link p-0 text-muted">Tööpakkumised</a></li>
+            <li class="nav-item mb-2"><a href="./pagekaks.html" class="nav-link p-0 text-muted">Uudised</a></li>
+            <li class="nav-item mb-2"><a href="./pagekaks.html" class="nav-link p-0 text-muted">Investor</a></li>
+            <li class="nav-item mb-2"><a href="./pagekaks.html" class="nav-link p-0 text-muted">Finantsportaal</a></li>
+            <li class="nav-item mb-2"><a href="./pagekaks.html" class="nav-link p-0 text-muted">Roheline LHV</a></li>
+            <li class="nav-item mb-2"><a href="./pagekaks.html" class="nav-link p-0 text-muted">Hea tegu</a></li>
+            <li class="nav-item mb-2"><a href="./pagekaks.html" class="nav-link p-0 text-muted">Blogi</a></li>
           </ul>
         </div>
 
         <div class="col">
           <h6>Kontakt</h6>
           <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Kontaktid</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Kontorid</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Broneeri kohtumisaeg</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Sularahaautomaadid</a></li>
+            <li class="nav-item mb-2"><a href="./pagekaks.html" class="nav-link p-0 text-muted">Kontaktid</a></li>
+            <li class="nav-item mb-2"><a href="./pagekaks.html" class="nav-link p-0 text-muted">Kontorid</a></li>
+            <li class="nav-item mb-2"><a href="./pagekaks.html" class="nav-link p-0 text-muted">Broneeri kohtumisaeg</a></li>
+            <li class="nav-item mb-2"><a href="./pagekaks.html" class="nav-link p-0 text-muted">Sularahaautomaadid</a></li>
           </ul>
         </div>
       </footer>
@@ -346,5 +335,35 @@
   </div>
 </div>
 </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/owl.carousel.min.js"></script>
+<script type="text/javascript">
+$(".owl-carousel").owlCarousel({
+
+  //Basic Speeds
+  slideSpeed : 200,
+  paginationSpeed : 800,
+
+  //Autoplay
+  autoPlay : true,
+  goToFirst : true,
+  goToFirstSpeed : 1000,
+
+  // Navigation
+  navigation : false,
+  navigationText : ["prev","next"],
+  pagination : true,
+  paginationNumbers: true,
+
+  // Responsive
+  responsive: true,
+  items : 1,
+  itemsDesktop : [1199,4],
+  itemsDesktopSmall : [980,3],
+  itemsTablet: [768,2],
+  itemsMobile : [479,1]
+
+})
+</script>
 </body>
 </html>
